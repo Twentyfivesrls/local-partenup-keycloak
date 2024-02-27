@@ -6,6 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="robots" content="noindex, nofollow">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <style type="text/css">
             <#include "resources/css/login.css">
         </style>
@@ -15,20 +16,9 @@
 
     <body>
         <#nested "header">
-        <div class="login-content">
-            <div class="box">
-                <#if displayMessage && message?has_content>
-                    <div class="alert alert-${message.type}">
-                        <#if message.type = 'success'><span class="${properties.kcFeedbackSuccessIcon!}"></span></#if>
-                        <#if message.type = 'warning'><span class="${properties.kcFeedbackWarningIcon!}"></span></#if>
-                        <#if message.type = 'error'><span class="${properties.kcFeedbackErrorIcon!}"></span></#if>
-                        <#if message.type = 'info'><span class="${properties.kcFeedbackInfoIcon!}"></span></#if>
-                        <span class="message-text">${message.summary?no_esc}</span>
-                    </div>
-                </#if>
+
                 <#nested "form">
-            </div>
-        </div>
+
     </body>
     </html>
 </#macro>
