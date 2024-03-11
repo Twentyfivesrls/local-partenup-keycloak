@@ -67,7 +67,7 @@ body {
 
 .logo {
     position: absolute;
-    top: 13%;
+    top: 6%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -109,7 +109,7 @@ body {
     padding: 12px;
     font-size: .75rem;
     margin-top: 2px;
-    background-color: #1b1a39;
+    background-color: #2d6788;
     color: #ffffff;
     border: none;
     cursor: pointer;
