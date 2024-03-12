@@ -7,6 +7,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="robots" content="noindex, nofollow">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="${url.
+        resourcesPath}/img/favicon.ico">
         <style type="text/css">
             <#include "resources/css/login.css">
         </style>
